@@ -1,12 +1,13 @@
 
 import './App.css'
+import SimpleFrom from './components/simpleFrom/SimpleFrom'
 
 function App() {
 
   return (
     <>
-  
-   <h3>Explore React from</h3>
+   <h1>Explore React from</h1>
+   <SimpleFrom></SimpleFrom>
     </>
   )
 }
