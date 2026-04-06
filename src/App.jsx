@@ -3,6 +3,7 @@ import './App.css'
 import ControlledField from './components/controlledfield/ControlledField'
 import FromAction from './components/fromAction/FromAction'
 import SimpleFrom from './components/simpleFrom/SimpleFrom'
+import UncontrolledFiled from './components/uncontrolledFiled/UncontrolledFiled'
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
    <h1>Explore React from</h1>
    {/* <SimpleFrom></SimpleFrom> */}
    {/* <FromAction></FromAction> */}
-   <ControlledField></ControlledField>
+   {/* <ControlledField></ControlledField> */}
+   <UncontrolledFiled></UncontrolledFiled>
     </>
   )
 }
