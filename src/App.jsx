@@ -2,6 +2,7 @@
 import './App.css'
 import ControlledField from './components/controlledfield/ControlledField'
 import FromAction from './components/fromAction/FromAction'
+import HookFrom from './components/hookfrom/HookFrom'
 import SimpleFrom from './components/simpleFrom/SimpleFrom'
 import UncontrolledFiled from './components/uncontrolledFiled/UncontrolledFiled'
 
@@ -13,7 +14,8 @@ function App() {
    {/* <SimpleFrom></SimpleFrom> */}
    {/* <FromAction></FromAction> */}
    {/* <ControlledField></ControlledField> */}
-   <UncontrolledFiled></UncontrolledFiled>
+   {/* <UncontrolledFiled></UncontrolledFiled> */}
+   <HookFrom></HookFrom>
     </>
   )
 }
